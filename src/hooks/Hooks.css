@@ -1,0 +1,79 @@
+/* Hooks.css */
+
+/* Container Styling */
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading */
+.container h1 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Count Display */
+.state-container p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.state-container span {
+  color: #2a9d8f;
+}
+
+/* Input Field */
+label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  color: #333;
+}
+
+input[type="number"] {
+  padding: 8px;
+  margin-left: 8px;
+  width: 80px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Button Grid */
+.grid-three-cols {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Buttons */
+button {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
