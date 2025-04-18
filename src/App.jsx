@@ -20,6 +20,7 @@ import ControlledForm from "./hooks/useState/Controlled";
 import { RegistrationForm } from "./hooks/useState/Registration";
 import { RegistrationFormReact } from "./hooks/useState/RegistrationReact";
 import { LoginForm } from "./hooks/useState/Login";
+import { ContactForm } from "./hooks/useState/ContactForm";
 
 export const App = () => {
   return (
@@ -43,7 +44,8 @@ export const App = () => {
       {/* < ControlledForm /> */}
       {/* <RegistrationForm/> */}
       {/* <RegistrationFormReact/> */}
-      <LoginForm />
+      {/* <LoginForm /> */}
+      <ContactForm />
     </section>
   );
 }; 

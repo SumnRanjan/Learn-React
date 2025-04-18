@@ -5,7 +5,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Urbanist", sans-serif;
+  color : black
 }
+
+
 
 html {
   font-size: 62.5%;
@@ -13,7 +16,7 @@ html {
 
 :root {
   --primary-color: #1c2833;
-  --secondary-color: #fff;
+  --secondary-color: #1b1a1a;
   --bg-color: #f2f3f4;
 }
 
