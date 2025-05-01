@@ -1,6 +1,4 @@
-/* Hooks.css */
-
-/* Container Styling */
+/*
 .container {
   max-width: 400px;
   margin: 40px auto;
@@ -12,14 +10,12 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* Heading */
 .container h1 {
   font-size: 1.8rem;
   color: #333;
   margin-bottom: 1.5rem;
 }
 
-/* Count Display */
 .state-container p {
   font-size: 1.4rem;
   font-weight: bold;
@@ -30,7 +26,6 @@
   color: #2a9d8f;
 }
 
-/* Input Field */
 label {
   font-size: 1rem;
   margin-bottom: 0.5rem;
@@ -49,14 +44,12 @@ input[type="number"] {
   color: black;
 }
 
-/* Button Grid */
 .grid-three-cols {
   display: flex;
   gap: 10px;
   margin-top: 20px;
 }
 
-/* Buttons */
 button {
   flex: 1;
   padding: 10px;
@@ -78,3 +71,4 @@ button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
 }
+*/

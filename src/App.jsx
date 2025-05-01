@@ -21,6 +21,11 @@ import { RegistrationForm } from "./hooks/useState/Registration";
 import { RegistrationFormReact } from "./hooks/useState/RegistrationReact";
 import { LoginForm } from "./hooks/useState/Login";
 import { ContactForm } from "./hooks/useState/ContactForm";
+import { ReactUseEffect } from "./hooks/useEffect";
+import {EffectChallenge} from "./hooks/useEffect/EffectChallenge"
+import { CleanUp } from "./hooks/useEffect/CleanUp";
+import { HowNotToFetchApi } from "./hooks/useEffect/HowNotToFetchApi";
+import { FetchApi } from "./hooks/useEffect/FetchApi";
 
 export const App = () => {
   return (
@@ -45,7 +50,13 @@ export const App = () => {
       {/* <RegistrationForm/> */}
       {/* <RegistrationFormReact/> */}
       {/* <LoginForm /> */}
-      <ContactForm />
+      {/* <ContactForm /> */}
+      {/* <ReactUseEffect /> */}
+      {/* <EffectChallenge/> */}
+      {/* <CleanUp /> */}
+      {/* <HowNotToFetchApi/> */}
+      <FetchApi />
+
     </section>
   );
 }; 

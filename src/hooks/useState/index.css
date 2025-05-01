@@ -1,14 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap"); */
 
+/*
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Urbanist", sans-serif;
-  color : black
+  color: black;
 }
-
-
 
 html {
   font-size: 62.5%;
@@ -39,11 +38,11 @@ body {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   background-color: #f7f7f7;
 }
+
 * {
   box-sizing: border-box;
 }
 
-/* Add padding to container elements */
 .container {
   padding: 20px;
   width: 500px;
@@ -59,7 +58,6 @@ body {
   box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
 }
 
-/* Full-width input fields */
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -90,7 +88,6 @@ input[type="phone"]:focus {
   outline: none;
 }
 
-/* Set a style for all buttons */
 button {
   background-color: #0eb7f4;
   color: white;
@@ -115,18 +112,20 @@ span {
   margin: 0 0.6rem;
   color: #0eb7f4;
 }
+
 label,
 p {
   font-size: 1.6rem;
 }
+
 p {
   margin-bottom: 3.2rem;
   font-size: 1.8rem;
 }
-
 
 @media screen and (max-width: 300px) {
   .signupbtn {
     width: 100%;
   }
 }
+*/
