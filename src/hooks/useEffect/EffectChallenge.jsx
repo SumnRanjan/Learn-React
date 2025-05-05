@@ -14,7 +14,6 @@ export const EffectChallenge = () => {
     }, [name])
 
 
- 
   return (
     <div className="container effect-container">
       <h1>useEffect Challenge</h1>

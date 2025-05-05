@@ -26,6 +26,14 @@ import {EffectChallenge} from "./hooks/useEffect/EffectChallenge"
 import { CleanUp } from "./hooks/useEffect/CleanUp";
 import { HowNotToFetchApi } from "./hooks/useEffect/HowNotToFetchApi";
 import { FetchApi } from "./hooks/useEffect/FetchApi";
+import { UseRefs } from "./hooks/useRefs/index";
+import { ForwardRef } from "./hooks/useRefs/ForwardRef";
+import { UseId } from "./hooks/useID";
+import { PropDrilling } from "./Components/PropDrilling";
+import { BioProvider } from "./hooks/ContextAPI";
+import { Home } from "./hooks/ContextAPI/Home";
+import { About } from "./hooks/ContextAPI/About";
+import { Services } from "./hooks/ContextAPI/Services";
 
 export const App = () => {
   return (
@@ -55,7 +63,19 @@ export const App = () => {
       {/* <EffectChallenge/> */}
       {/* <CleanUp /> */}
       {/* <HowNotToFetchApi/> */}
-      <FetchApi />
+      {/* <FetchApi /> */}
+      {/* <UseRefs/> */}
+      {/* <ForwardRef/> */}
+      {/* <UseId /> */}
+      {/* <PropDrilling />  */}
+
+      {/* inside provider */}
+      <BioProvider>
+        <Home />
+        <About />
+        <Services/> /
+      </BioProvider>
+
 
     </section>
   );
