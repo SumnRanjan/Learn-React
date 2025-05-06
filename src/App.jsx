@@ -36,6 +36,9 @@ import { About } from "./hooks/ContextAPI/About";
 import { Services } from "./hooks/ContextAPI/Services";
 import { ThemeProvider , DarkLight} from "./hooks/ContextAPI/DarkLight";
 import { ReducerComp } from "./hooks/useReducer";
+import { ReactMemo } from "./hooks/Memo/ReactMemo";
+import MemoParentComponent from "./hooks/Memo/UseMemo";
+import UseCallback from "./hooks/Memo/UseCallback";
 
 export const App = () => {
   return (
@@ -84,7 +87,10 @@ export const App = () => {
       </ThemeProvider> */}
 
       {/* useReducer */}
-      <ReducerComp/>
+      {/* <ReducerComp/> */}
+      {/* <ReactMemo /> */}
+      {/* <MemoParentComponent /> */}
+      <UseCallback />
 
     </section>
   );
