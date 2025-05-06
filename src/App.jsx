@@ -34,6 +34,8 @@ import { BioProvider } from "./hooks/ContextAPI";
 import { Home } from "./hooks/ContextAPI/Home";
 import { About } from "./hooks/ContextAPI/About";
 import { Services } from "./hooks/ContextAPI/Services";
+import { ThemeProvider , DarkLight} from "./hooks/ContextAPI/DarkLight";
+import { ReducerComp } from "./hooks/useReducer";
 
 export const App = () => {
   return (
@@ -70,12 +72,19 @@ export const App = () => {
       {/* <PropDrilling />  */}
 
       {/* inside provider */}
-      <BioProvider>
+      {/* <BioProvider>
         <Home />
         <About />
         <Services/> /
-      </BioProvider>
+      </BioProvider> */}
 
+      {/* Light And Dark Mode */}
+      {/* <ThemeProvider>
+        <DarkLight/>
+      </ThemeProvider> */}
+
+      {/* useReducer */}
+      <ReducerComp/>
 
     </section>
   );
